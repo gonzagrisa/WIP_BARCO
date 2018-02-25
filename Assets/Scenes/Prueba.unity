@@ -1524,7 +1524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joystick: {fileID: 137543512}
   maxSpeed: 5
-  speed: 3
+  speed: 5
 --- !u!54 &1230596447
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1538,7 +1538,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!4 &1238221209 stripped
 Transform:
