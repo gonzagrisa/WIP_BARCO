@@ -15,7 +15,6 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointer
 	}
 
 	public virtual void OnDrag(PointerEventData ped){
-		Debug.Log ("DRAG");
 		Vector2 pos;
 		if (RectTransformUtility.ScreenPointToLocalPointInRectangle (JAtras.rectTransform,
 																	 	ped.position,
@@ -37,7 +36,6 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointer
 
 	public virtual void OnPointerDown(PointerEventData ped){
 		OnDrag (ped);
-		Debug.Log ("POINTER_DOWN");
 	}
 
 	public virtual void OnPointerUp(PointerEventData ped){
